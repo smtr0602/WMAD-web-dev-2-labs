@@ -93,8 +93,3 @@ function createPostItems() {
 
 //READ
 fetchButton.addEventListener('click', fetchPosts);
-
-//Delete
-deleteButtons.forEach((button) => {
-  button.addEventListener('click', (e) => deletePost(e));
-});
